@@ -1,0 +1,10 @@
+Server程序的工程使用Windows的批处理文件（bat）进行组织
+运行系统：Window7/8.1/10
+编译环境为JDK（1.6/1.7/1.8）请在运行之前确认主机中已经安装JDK并配置好环境变量
+
+运行方法：
+1.运行build.bat
+2.运行run.bat
+
+clean.bat脚本会将bin目录下的.class文件删除
+resetDB.bat会将服务器的数据库（已经注册的用户名密码）清空

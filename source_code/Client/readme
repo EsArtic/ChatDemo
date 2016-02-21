@@ -1,0 +1,11 @@
+Client程序的工程使用Windows的批处理文件（bat）进行组织
+运行系统：Window7/8.1/10
+编译环境为JDK（1.6/1.7/1.8）请在运行之前确认主机中已经安装JDK并配置好环境变量
+
+运行方法：
+1.打开src/data中的Data.java，将其中serverIP变量所存的ip地址改为服务端的ip地址（*请确保服务端已事先运行）
+2.运行build.bat
+3.运行run.bat
+
+clean.bat脚本会将bin目录下的.class文件删除
+doc.bat会利用javadoc关于程序框架说明的html
